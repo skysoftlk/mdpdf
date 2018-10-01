@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "xo",
-    "test": "mocha ./tests/index.js"
+    "test": "mocha ./tests/index.js",
+    "docs:build": "vuepress build docs"
   },
   "bin": {
     "mdpdf": "bin/index.js"
@@ -47,6 +48,7 @@
     "meow": "^3.7.0",
     "showdown": "^1.6.0",
     "showdown-emoji": "^1.0.3",
+    "vuepress": "^0.14.4",
     "xo": "^0.23.0"
   },
   "devDependencies": {
